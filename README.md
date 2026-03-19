@@ -19,4 +19,4 @@ Site que permite aos clientes visualizar uma vitrine de produtos, assim como o v
 
 ### Este repositório foi criado com o objetivo de concluir a atividade proposta pelo professor de códigos de alta performance-web (UNINASSAU, 2026)
 
-[![Link do site](https://img.shields.io/badge/Link%20do%20Site%20%20-DB2777?style=for-the-badge)]( https://brunasilva701.github.io/brunasilva.github.io/)
+[![Link do site](https://img.shields.io/badge/Link%20do%20Site%20%20-DB2777?style=for-the-badge)](https://brunasilva701.github.io/Digitalizando_o_Comercio_Local/)

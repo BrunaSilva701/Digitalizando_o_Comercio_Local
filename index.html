@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Casa do Bolo de Rolo</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Casa do Bolo de Rolo</h1>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#produtos">Produtos</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h3>O melhor bolo de rolo artesanal</h3>
+        <a href="#produtos" class="verProduto">Ver produtos</a>
+    </section>
+
+    <!-- Sobre nós -->
+    <section id="sobre">
+        <h2>Sobre nós</h2>
+        <p>Somos um local de fabricação de bolos de rolo familiar. Fundada em 1997 pela matriarca da familia,
+            teve suas receitas passadas durante as gerações e continua até os dias atuais levando alegria a outras
+            familias através do incrivel sabor que apenas o bolo de rolo nos proporciona.
+        </p>
+    </section>
+
+    <!-- Vitrine -->
+    <h2 class="titulo">Produtos</h2>
+    <section id="produtos">
+        <div class="card">
+            <p>Bolo de rolo tradicional</p>
+            <img src="img/tradicional1.jpg" alt="" width="100" height="100">
+            <p>R$ 20,00</p>
+            <button onclick="selecionarProduto('Tradicional', 20)">Adicionar</button>
+        </div>
+
+        <div class="card">
+            <p>Bolo de rolo sabor chocolate</p>
+            <img src="img/chocolate2.jpg" alt="" width="100" height="100">
+            <p>R$ 25,00</p>
+            <button onclick="selecionarProduto('Chocolate', 25)">Adicionar</button>
+        </div>
+
+        <div class="card">
+            <p>Bolo de rolo sabor pistache</p>
+            <img src="img/pistache2.jpg" alt="" width="100" height="100">
+            <p>R$ 30,00</p>
+            <button onclick="selecionarProduto('Pistache',30)">Adicionar</button>
+        </div>
+    </section>
+
+    <section id="simulador">
+        <h2>Simule seu pedido</h2>
+        <p id="produtoSelecionado">Produto selecionado</p>
+
+        <div>
+            <button onclick="diminuir()">-</button>
+            <span id="quantidade">1</span>
+            <button onclick="aumentar()">+</button>
+        </div>
+
+        <p>Total: R$ <span id="total">0,00</span></p>
+        <button type="submit" id="finalizar">Finalizar</button>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>&copy 2026 Casa do Bolo de Rolo - Todos os direitos reservados</footer>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
